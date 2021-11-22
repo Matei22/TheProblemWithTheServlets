@@ -9,7 +9,7 @@ public class User {
 	private String hobby;
 	private String country;
 	
-	private User()
+	public User()
 	{
 		
 	}

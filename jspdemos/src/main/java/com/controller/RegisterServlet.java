@@ -28,17 +28,6 @@ public class RegisterServlet extends HttpServlet {
 		User user = (User) request.getAttribute("user");
 		PrintWriter out = response.getWriter();
 		out.print("<h3>Your Details " + user + "</h3>");
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	}
 
 }

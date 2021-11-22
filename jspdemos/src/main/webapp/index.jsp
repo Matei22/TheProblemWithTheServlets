@@ -21,7 +21,31 @@
 		}
 	%>
 		The current date is <%= new Date() %>
-	
+		<%--JSP Implicit Objects
+		out -jspWriter
+		application - ServletContext
+		config - ServletConfig
+		page - Object
+		pageContext -PageContext
+		Exception - Throwable
+		request - HttpServletRequest
+		response - HttpServletResponse		
+		 --%>
+		 
+		 <form action="">
+		 	Enter Name: <input type="text" name="fname">
+		 	<input type="submit" name="click" value ="Click me">
+		 </form>
+		 
+		 
+		 <%
+		 	if(request.getParameter("click") != null){
+		 		out.print("Helo " + request.getParameter("fname"));
+		 	}
+		 
+		 %>
+		 
+		 
 	<%@incude file="footer.html" %>
 	
 </body>
