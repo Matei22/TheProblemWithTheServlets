@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="context_config_demo/src/main/java"/>
+	<classpathentry kind="src" path="customtagdemo/src/main/java"/>
+	<classpathentry kind="src" path="displacher_demo/src/main/java"/>
+	<classpathentry kind="src" path="HibernateDemo/src"/>
+	<classpathentry kind="src" path="jspdemos/src/main/java"/>
+	<classpathentry kind="src" path="listener_demo/src/main/java"/>
+	<classpathentry kind="src" path="my/src/main/java"/>
+	<classpathentry kind="src" path="MyFirstWebApp/src/main/java"/>
+	<classpathentry kind="src" path="session_demo/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="HibernateDemo/bin"/>
+</classpath>
