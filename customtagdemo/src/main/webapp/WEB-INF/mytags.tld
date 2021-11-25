@@ -14,16 +14,6 @@
 			<body-content>empty</body-content>
 		</tag>
 		
-		<tag>
-			<name>CustomDateTag</name>
-			<tag-class>com.tags.CustomDate</tag-class>
-			<body-content>empty</body-content>
-			<atribute>
-				<name>format</name>
-				<required>true</required>
-				<rtexprvalue>true</rtexprvalue>
-			</atribute>
-		</tag>
 		
 		<tag>
 			<name>upper</name>

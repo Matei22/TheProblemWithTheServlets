@@ -36,7 +36,7 @@ public class LoginController extends HttpServlet {
 			rd.forward(request, response);
 		}else {
 			rd=request.getRequestDispatcher("login.html");
-			PrintWriter oit = response.getWriter();
+			PrintWriter out = response.getWriter();
 			rd.include(request, response);
 			out.println("<center> <span style='color:red'> Invalid Credentials!!</span></center>");
 		}

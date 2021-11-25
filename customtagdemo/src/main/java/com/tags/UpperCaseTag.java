@@ -5,9 +5,9 @@ import java.io.StringWriter;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import jakarta.servlet.jsp.JspException;
-import jakarta.servlet.jsp.JspWriter;
-import jakarta.servlet.jsp.tagext.SimpleTagSupport;
+import javax.servlet.jsp.JspException;
+import javax.servlet.jsp.JspWriter;
+import javax.servlet.jsp.tagext.SimpleTagSupport;
 
 public class UpperCaseTag extends SimpleTagSupport{
 	

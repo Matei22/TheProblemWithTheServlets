@@ -1,19 +1,20 @@
 package listeners;
 
-import java.sql.Date;
 
-import jakarta.servlet.ServletContextAttributeEvent;
-import jakarta.servlet.ServletContextAttributeListener;
-import jakarta.servlet.ServletContextEvent;
-import jakarta.servlet.ServletContextListener;
-import jakarta.servlet.ServletRequestAttributeEvent;
-import jakarta.servlet.ServletRequestAttributeListener;
-import jakarta.servlet.ServletRequestEvent;
-import jakarta.servlet.ServletRequestListener;
-import jakarta.servlet.http.HttpSessionAttributeListener;
-import jakarta.servlet.http.HttpSessionBindingEvent;
-import jakarta.servlet.http.HttpSessionEvent;
-import jakarta.servlet.http.HttpSessionListener;
+import java.util.Date;
+
+import javax.servlet.ServletContextAttributeEvent;
+import javax.servlet.ServletContextAttributeListener;
+import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletContextListener;
+import javax.servlet.ServletRequestAttributeEvent;
+import javax.servlet.ServletRequestAttributeListener;
+import javax.servlet.ServletRequestEvent;
+import javax.servlet.ServletRequestListener;
+import javax.servlet.http.HttpSessionAttributeListener;
+import javax.servlet.http.HttpSessionBindingEvent;
+import javax.servlet.http.HttpSessionEvent;
+import javax.servlet.http.HttpSessionListener;
 
 /**
  * Application Lifecycle Listener implementation class MyListener
@@ -52,4 +53,54 @@ public class MyListener implements ServletContextListener, ServletContextAttribu
     	System.out.println("Hello from Listener Session destroyed at " 
     			+ new Date(arg0.getSession().getCreationTime()));
     }
+	@Override
+	public void attributeAdded(ServletRequestAttributeEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void attributeRemoved(ServletRequestAttributeEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void attributeReplaced(ServletRequestAttributeEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void requestDestroyed(ServletRequestEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void requestInitialized(ServletRequestEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void attributeAdded(ServletContextAttributeEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void attributeRemoved(ServletContextAttributeEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void attributeReplaced(ServletContextAttributeEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void contextDestroyed(ServletContextEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void contextInitialized(ServletContextEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
 }
